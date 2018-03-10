@@ -1,0 +1,49 @@
+body {
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.container{
+    background: #FF5F6D;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFC371, #FF5F6D);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFC371, #FF5F6D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+}
+
+h1 {
+  background-color: powderblue;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-size: 48px;
+}
+
+h2 {
+  text-decoration: underline;
+  text-decoration-style: wavy;
+}
+
+h3 {
+  text-decoration: underline;
+}
+
+#FirstJumbo{
+  /* background-image: url('bg.jpg'); */
+  background-color: lightcyan;
+  color: black;
+  /* background-size:contain; */
+}
+.carousel-control-next-icon {
+    background-image : url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff0000' viewBox='0 0 8 8'%3E%3Cpath d='M1.5 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E")
+    color: black;
+}
+
+.carousel-control-prev-icon {
+    background-image : url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff0000' viewBox='0 0 8 8'%3E%3Cpath d='M1.5 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E")
+    color: black;
+    align-content: black;
+}
